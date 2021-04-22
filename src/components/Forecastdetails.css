@@ -18,12 +18,14 @@
 .details-date {
   margin-top: 50px;
   color: #cf1020;
+  text-align: center;
 }
 
 .details-forecast {
   margin-top: 60px;
   border-style: solid;
   border-width: 2px;
+  text-align: center;
 }
 
 .details-right {

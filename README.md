@@ -22,4 +22,4 @@
 
 ## Deployment:
 
-- App is deployed in https://xenodochial-mcnulty-63e30f.netlify.app using netlify.
+- App is deployed in https://nostalgic-hawking-77d661.netlify.app/ using netlify.
