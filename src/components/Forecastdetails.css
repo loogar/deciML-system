@@ -1,0 +1,31 @@
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+}
+
+/* div partition into two parts */
+.details-left {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.details-question {
+  text-decoration: underline;
+}
+
+.details-date {
+  margin-top: 50px;
+  color: #cf1020;
+}
+
+.details-forecast {
+  margin-top: 60px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.details-right {
+  grid-area: 1 / 2 / 2 / 3;
+}
