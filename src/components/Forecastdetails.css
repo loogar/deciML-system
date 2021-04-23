@@ -28,6 +28,10 @@
   text-align: center;
 }
 
+.details-forecast span {
+  color: #cf1020;
+}
+
 .details-right {
   grid-area: 1 / 2 / 2 / 3;
 }

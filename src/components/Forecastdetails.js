@@ -17,8 +17,12 @@ const Forecastdetails = (props) => {
               <h4>&#9650;Due date : {props.date}</h4>
             </div>
             <div className='details-forecast'>
-              <h4>Number of forecasts made : {props.amount}</h4>
-              <h4>Current forecast: {props.current}</h4>
+              <h4>
+                Number of forecasts made : <span>{props.amount}</span>
+              </h4>
+              <h4>
+                Current forecast: <span>{props.current}</span>
+              </h4>
             </div>
           </div>
           <div className='details-right'>
